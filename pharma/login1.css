@@ -1,0 +1,78 @@
+body {
+    background-image: url("Head.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header {
+    font-family: Algerian;
+    padding: 5px;
+    margin:-25px;
+    text-align: center;
+    background-image: url("Head1.jpg");
+    color: black;
+    font-size: 40px;
+    overflow: inherit;
+}
+
+.footer {
+    font-family: Rockwell;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    color: black;
+    text-align: center;
+    margin-left: 42%;
+    margin-bottom:1%;
+    overflow: hidden;
+}
+
+.container {
+    width: 30%;
+    border-block-color: black;
+    margin-top: 2%;
+    margin-left: 45%;
+    background-image: url("Head2.jpg");
+}
+
+
+#div_login {
+    border: 3px solid black;
+    border-radius: 3px;
+    width: 100%;
+    height: 280px;
+    box-shadow: 1px 1px 1px 1px #403C3B;
+    margin: 0 auto;
+}
+
+    #div_login h1 {
+        margin-top: 0px;
+        font-weight: 500;
+        padding: 20px;
+        color: black;
+        font-family: 'Sitka Heading';
+    }
+
+    #div_login div {
+        clear: both;
+        margin-top: 10px;
+        padding: 5px;
+        padding-right: 15px;
+    }
+
+    #div_login .textbox {
+        width: 90%;
+        padding: 7px;
+    }
+
+input[type=submit] {
+    color: black;
+    padding: 12px 20px;
+    border-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 5px;
+}
